@@ -11,3 +11,5 @@
 # 不忽略 code 文件夹及里面所有内容
 !code/
 !code/**
+
+!README.md
