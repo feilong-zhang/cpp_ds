@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++: cr.ps1 (build & run current file)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "D:\\script\\cr.ps1",
+        "-fileName",
+        "${fileBasename}"
+      ],
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
